@@ -1,11 +1,11 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
-
 @Component({
   selector: 'app-sidenav',
   templateUrl: './sidenav.component.html',
   styleUrls: ['./sidenav.component.css'],
 })
 export class SidenavComponent implements OnInit, AfterViewInit {
+
   ngOnInit(): void {
     this.imageClick();
   }
